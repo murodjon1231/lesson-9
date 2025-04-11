@@ -1,68 +1,15 @@
-:root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+@import "tailwindcss";
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+.div{
+  background-image: url('https://s3-alpha-sig.figma.com/img/78c8/5089/30364c022580bcbae487b9f359684f74?Expires=1745193600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=DF-sDN88ZtLUmqlq8w7M916RVhiHEyeSnm2l~BqlqMBUEos-H9xcZZ7v~EcK8nODBvzT3EFe9NSK6CaCEMua-VejuGu0ZMpbSm82HlOVOszgTgSfCc6NHkngtIV1lMnQgeHTd~Q1ij6mm3eCQjUw6WBvhvkClQhecd4Ab7f6MuEEKg5Of34l6GOctLILPqXYPDveiXS1gLfD5~y-xAWPwp0WdTyo3si0V0XlMugH~GrSCaHXLCnmgOW6PChAJlrkxtRGfXq80KQeNRPbPfYqXRR5-97wgcIe89DiawHD61xQzAap1VIc3tDvOkyQq8qjyJLlZR4wfCHuafNJAfnOJA__');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #000;
+  height: 600px;
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
-
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-}
-
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
-
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+.bg{
+  background-image: url('https://s3-alpha-sig.figma.com/img/9745/a507/4e44a7c399488fc7d82bf83fe8ea8c0b?Expires=1745193600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=cM1FosIQ~ZWDHxW~yQjeE4Y25MZfS8FYrGGIYtmhSRx3F-hbFU2cJN-2QAE-4J9G63Ji1WQk2eYotFeJGrNI6zpzRrmbVRXvyo2AbJlsSFvA1Pbf~eNoQmjPRDshHyqcy8bMQce6iiWaPZ~c4UMZCSdY3rKIOfOKvLfXgBzlAbqXYJ3wF8yFwhhxfVYGzKhg15pN4QcKyGqfPWyGrGejdBwkzS6~2oVBT49PmKlqeJ7dzRbgkkT1LMe0VClcw-rd3Rm9TebMAa51~vmHsz2aAPsmkWjCaFJiEaU12Ynw2aVr3Ph58tu39UrRhitRkY-d1A1okhi9y3fr3QBIgeEoKA__');
 }
