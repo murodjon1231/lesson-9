@@ -1,12 +1,10 @@
 import React from 'react'
+import MurodPage from './pages/MurodPage'
 
 const App = () => {
   return (
     <div>
-      <h1>App</h1>
-      <p>Welcome to the App component!</p>
-      <p>This is a simple React application.</p>
-      <p>Feel free to explore and modify the code!</p>
+      <MurodPage/>
     </div>
   )
 }
