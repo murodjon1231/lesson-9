@@ -13,3 +13,11 @@
 .bg{
   background-image: url('https://s3-alpha-sig.figma.com/img/9745/a507/4e44a7c399488fc7d82bf83fe8ea8c0b?Expires=1745193600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=cM1FosIQ~ZWDHxW~yQjeE4Y25MZfS8FYrGGIYtmhSRx3F-hbFU2cJN-2QAE-4J9G63Ji1WQk2eYotFeJGrNI6zpzRrmbVRXvyo2AbJlsSFvA1Pbf~eNoQmjPRDshHyqcy8bMQce6iiWaPZ~c4UMZCSdY3rKIOfOKvLfXgBzlAbqXYJ3wF8yFwhhxfVYGzKhg15pN4QcKyGqfPWyGrGejdBwkzS6~2oVBT49PmKlqeJ7dzRbgkkT1LMe0VClcw-rd3Rm9TebMAa51~vmHsz2aAPsmkWjCaFJiEaU12Ynw2aVr3Ph58tu39UrRhitRkY-d1A1okhi9y3fr3QBIgeEoKA__');
 }
+a.active{
+  color: white;
+  background-color: #333;
+  text-decoration: none;
+  width: 170px;
+  text-align: center;
+  color: #01AEE7;
+}
